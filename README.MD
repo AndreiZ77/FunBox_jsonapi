@@ -14,5 +14,8 @@ To start the application you need running Redis server.
 
 Run server::
 
-    $ python se_app/main.py
+    $ python manage.py runserver
 
+Run tests::
+
+    $ python manage.py test
